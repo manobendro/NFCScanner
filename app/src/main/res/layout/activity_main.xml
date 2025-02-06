@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/show_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Logs:" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_enable_reader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_reader" />
+
+    <Button
+        android:id="@+id/btn_disable_reader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disable_reader" />
+    <Button
+        android:id="@+id/btn_get_nfc_hw_version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_hw_version" />
+
+    <Button
+        android:id="@+id/btn_getCardid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_card_number" />
+
+    <Button
+        android:id="@+id/btn_getBankCardid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_bank_card" />
+
+    <Button
+        android:id="@+id/btn_readBlock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read_all_blocks_of_m1_card_key_6_0xff" />
+
+    <Button
+        android:id="@+id/btn_writeBlock"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_the_4th_partition_of_the_m1_card_key_6_0xff" />
+
+
+</LinearLayout>

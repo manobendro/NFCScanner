@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NFCScanner</string>
+    <string name="read_card_number">Read card number</string>
+    <string name="read_all_blocks_of_m1_card_key_6_0xff">Read all blocks of M1 card (key 6 0xFF)</string>
+    <string name="write_the_4th_partition_of_the_m1_card_key_6_0xff">Write the 4th partition of the M1 card (key 6 0xFF)</string>
+    <string name="read_bank_card">Read BANK card number</string>
+    <string name="disable_reader">Disable reader</string>
+    <string name="enable_reader">Enable reader</string>
+    <string name="get_hw_version">Get hardware version</string>
+</resources>
